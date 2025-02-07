@@ -1,0 +1,19 @@
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/ETL_Inventario/main.ipynb
+
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_codigo_inutilizacion.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_division.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_estado_ubicacion.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_motivo_bloqueo.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_tipo_rack.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_tipo_ubicacion.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_tipo_zona.ipynb
+
+45 7 * * * /anaconda/anaconda3/bin/jupyter nbconvert --to notebook --execute --output resultado_$(date +\%Y-\%m-\%d).ipynb /workspace/jupyter/jbianculli/INVENTARIO/produccion/DIM/main_dim_zona.ipynb
+
