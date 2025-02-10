@@ -1,0 +1,9 @@
+SELECT 
+    id_producto,
+    ID_DPTO_GDM id_departamento,
+    ID_CLASE id_clase,
+    B.ID_04 id_gran_categoria,
+    C.ID_GERENTE id_gerente_comercial
+FROM DSSADM.LT_PRODUCTO_DW A
+INNER JOIN DSSADMIN.LT_CATEGORIA_NVL4 B ON A.ID_03 = B.ID_03 AND A.ID_04 = B.ID_04
+INNER JOIN DSSADMIN.LT_GRUPO_COME C ON A.ID_GRUPO_COME = C.ID_GRUPO_COME

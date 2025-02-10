@@ -1,0 +1,30 @@
+connections:
+    source: 
+        prd:
+            user: 'CONSULTA_WF'
+            password: 'Coto__2024'
+            host: 'wf'
+            port: 1521
+            s_name: 'wf009a'
+            
+        dev:
+            user: 'CONSULTA_WF'
+            password: 'Coto__2024'
+            host: 'wf'
+            port: 1521
+            s_name: 'wf009a'
+    
+    target:
+        prd:
+            user: ''
+            password: ''
+            host: 'ctrl2-scan1'
+            port: 1728
+            s_name: 'ecndwh.redcoto.com.ar'
+    
+        dev: 
+            user: 'DSSADMIN'
+            password: 'amsterdam'
+            host: 'cd2-scan1'
+            port: 1728
+            s_name: 'ECDDWHU.redcoto.com.ar'

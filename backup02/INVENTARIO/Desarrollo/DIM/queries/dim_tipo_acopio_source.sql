@@ -1,0 +1,8 @@
+ select VALOR ID_TIPO_ACOPIO, DESCRIPCION DESC_TIPO_ACOPIO
+ from F766PARA 
+ where tabla = 'F001ZOAL'
+UNION
+SELECT '0', '[no configurada]'
+  FROM DUAL
+  
+  

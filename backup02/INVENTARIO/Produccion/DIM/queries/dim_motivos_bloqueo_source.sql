@@ -1,0 +1,7 @@
+SELECT  ID id_motivo_bloqueo, 
+        DESCRIPCION desc_motivo_bloqueo
+  FROM WFADMIN.MAESTRO_MOTIVOS_BLOQUEO
+UNION
+SELECT 0, 'NO BLOQUEADO'
+  FROM DUAL
+  
